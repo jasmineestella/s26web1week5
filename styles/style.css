@@ -1,0 +1,35 @@
+body{
+    background-color: bisque;
+    /*to target an id on the page, use # */
+    #container{
+        /* to center your site on the page, use margin*/
+        /* margin is the space that goes around an element (pushing it away from the other elements)*/
+        /* if you automatically apply an equal amount of space on both sides of an element it will center the element */
+        margin: 0 auto;
+        width: 800px;
+    }
+    /* the CSS box model goes:
+    margin: space between elements
+    border:
+    padding: space between content and the edge of the element
+    */
+    h3{
+        background-color: aliceblue;
+        /* when adding a border you need three rules
+        color 
+        size
+        type (ie. solid dashed dotted etc */
+        border:burlywood 5px dotted;
+        /* padding, if you only give it one value, it applies the same amount of space on both sides */
+        padding:15px;
+
+        /* with margin and padding two values means applying to top and bottom (first value) 
+        (second value)left and right */
+        margin:10px 0;
+    }
+    footer{
+        /* sometimes you just want space on one side of an element...*/
+        
+    }
+
+}
